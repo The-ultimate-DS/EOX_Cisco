@@ -11,7 +11,6 @@ import io
 import PyPDF2
 from langchain_openai import ChatOpenAI
 from langchain.chains import create_extraction_chain
-from src.utils.helpers import save_json, load_json, write_file
 
 # Load environment variables
 load_dotenv()
@@ -25,9 +24,9 @@ app = Flask(__name__, template_folder=template_dir)
 
 # Configure app paths
 if IS_RENDER:
-    # On Render, use absolute paths in the application directory
-    app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
-    app.config['RESULTS_FOLDER'] = os.path.abspath('results')
+    # On Render, use persistent storage for uploads and results
+    app.config['UPLOAD_FOLDER'] = '/data/uploads'
+    app.config['RESULTS_FOLDER'] = '/data/results'
 else:
     # Local development
     app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
@@ -41,6 +40,22 @@ os.makedirs(app.config['RESULTS_FOLDER'], exist_ok=True)
 
 # Cache for storing results
 result_cache = {}
+
+# Helper functions for file operations
+def save_json(data, filepath):
+    """Save data as JSON to the specified filepath."""
+    with open(filepath, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+def load_json(filepath):
+    """Load JSON data from the specified filepath."""
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
+def write_file(content, filepath):
+    """Write content to the specified filepath."""
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(content)
 
 # Add CORS support
 @app.after_request
