@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cisco EOL API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 800px; }
+        .result-container { margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cisco EOL Information API</h1>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3>Query Single Product</h3>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="productId" class="form-label">Product ID</label>
+                    <input type="text" class="form-control" id="productId" placeholder="Enter Cisco Product ID">
+                </div>
+                <button id="querySingle" class="btn btn-primary">Query</button>
+            </div>
+        </div>
+        
+        <div class="card mb-4">
+            <div class="card-header">
+                <h3>Upload Excel File</h3>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="formFile" class="form-label">Upload an Excel/CSV file with product IDs</label>
+                    <input class="form-control" type="file" id="formFile" accept=".xlsx,.xls,.csv">
+                </div>
+                <button id="uploadFile" class="btn btn-primary">Upload</button>
+            </div>
+        </div>
+        
+        <div class="result-container">
+            <h3>Results</h3>
+            <div id="results" class="border p-3 bg-light"></div>
+        </div>
+    </div>
+    
+    <script>
+        document.getElementById('querySingle').addEventListener('click', async () => {
+            const productId = document.getElementById('productId').value.trim();
+            if (!productId) {
+                alert('Please enter a Product ID');
+                return;
+            }
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = 'Loading...';
+            
+            try {
+                const response = await fetch(`/api/eol/${productId}`);
+                const data = await response.json();
+                
+                let html = '<h4>EOL Information for ' + productId + '</h4>';
+                
+                if (data.error) {
+                    html += `<div class="alert alert-danger">${data.error}</div>`;
+                } else {
+                    html += '<table class="table table-striped">';
+                    
+                    if (data.product_description) {
+                        html += `<tr><th>Description</th><td>${data.product_description}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_sale_date) {
+                        html += `<tr><th>End of Sale Date</th><td>${data.end_of_sale_date}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_software_maintenance) {
+                        html += `<tr><th>End of Software Maintenance</th><td>${data.end_of_software_maintenance}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_security_support) {
+                        html += `<tr><th>End of Security Support</th><td>${data.end_of_security_support}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_support) {
+                        html += `<tr><th>End of Support</th><td>${data.end_of_support}</td></tr>`;
+                    }
+                    
+                    if (data.recommended_replacement) {
+                        html += `<tr><th>Recommended Replacement</th><td>${data.recommended_replacement}</td></tr>`;
+                    }
+                    
+                    if (data.source_url) {
+                        html += `<tr><th>Source</th><td><a href="${data.source_url}" target="_blank">EOL Bulletin</a></td></tr>`;
+                    }
+                    
+                    html += '</table>';
+                }
+                
+                resultsDiv.innerHTML = html;
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        });
+        
+        document.getElementById('uploadFile').addEventListener('click', async () => {
+            const fileInput = document.getElementById('formFile');
+            if (!fileInput.files.length) {
+                alert('Please select a file');
+                return;
+            }
+            
+            const file = fileInput.files[0];
+            const formData = new FormData();
+            formData.append('file', file);
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = 'Uploading and processing file...';
+            
+            try {
+                const response = await fetch('/api/upload', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+                } else {
+                    let html = `<h4>Results for ${Object.keys(data.results).length} Products</h4>`;
+                    
+                    html += '<div class="mb-3">';
+                    html += '<h5>Download Options</h5>';
+                    html += `<a href="${data.download_links.json}" class="btn btn-sm btn-outline-primary me-2">JSON</a>`;
+                    html += `<a href="${data.download_links.excel}" class="btn btn-sm btn-outline-primary me-2">Excel</a>`;
+                    html += `<a href="${data.download_links.markdown}" class="btn btn-sm btn-outline-primary">Markdown</a>`;
+                    html += '</div>';
+                    
+                    html += '<table class="table table-striped">';
+                    html += '<thead><tr><th>Product ID</th><th>End of Sale</th><th>End of Support</th><th>Replacement</th></tr></thead>';
+                    html += '<tbody>';
+                    
+                    for (const [productId, eolData] of Object.entries(data.results)) {
+                        html += '<tr>';
+                        html += `<td>${productId}</td>`;
+                        html += `<td>${eolData.end_of_sale_date || 'N/A'}</td>`;
+                        html += `<td>${eolData.end_of_support || 'N/A'}</td>`;
+                        html += `<td>${eolData.recommended_replacement || 'N/A'}</td>`;
+                        html += '</tr>';
+                    }
+                    
+                    html += '</tbody></table>';
+                    
+                    resultsDiv.innerHTML = html;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        });
+    </script>
+</body>
+</html>
+        

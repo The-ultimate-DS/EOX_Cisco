@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Cisco EOL Information API</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --navy-blue: #003366;
+            --light-blue: #4d79a6;
+            --cisco-blue: #049fd9;
+            --light-gray: #f7f7f7;
+        }
+        
+        body {
+            background-color: var(--navy-blue);
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 0.5rem 1rem;
+        }
+        
+        .navbar-brand {
+            font-size: 1.6rem;
+            font-weight: 600;
+            color: white;
+        }
+        
+        .navbar-brand img {
+            height: 40px;
+            margin-right: 12px;
+        }
+        
+        .container {
+            max-width: 1000px;
+            padding: 20px;
+        }
+        
+        .card {
+            background-color: rgba(255, 255, 255, 0.05);
+            border: none;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .card-header {
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            font-weight: 600;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 12px 20px;
+            border-radius: 8px 8px 0 0;
+        }
+        
+        .card-body {
+            padding: 20px;
+        }
+        
+        .form-label {
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 500;
+        }
+        
+        .form-control {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            border-radius: 4px;
+        }
+        
+        .form-control:focus {
+            background-color: rgba(255, 255, 255, 0.15);
+            border-color: var(--cisco-blue);
+            color: white;
+            box-shadow: 0 0 0 0.25rem rgba(4, 159, 217, 0.25);
+        }
+        
+        .form-control::placeholder {
+            color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .btn-primary {
+            background-color: var(--cisco-blue);
+            border: none;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            background-color: #0388b8;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .btn-secondary {
+            background-color: rgba(255, 255, 255, 0.1);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            color: white;
+            font-weight: 500;
+            padding: 8px 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        
+        .result-container {
+            margin-top: 30px;
+        }
+        
+        .result-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        #results {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            min-height: 200px;
+        }
+        
+        .alert-danger {
+            background-color: rgba(220, 53, 69, 0.2);
+            color: #ff8c94;
+            border: 1px solid rgba(220, 53, 69, 0.3);
+        }
+        
+        .results-table {
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 0;
+            color: white;
+        }
+        
+        .results-table th {
+            background-color: rgba(0, 0, 0, 0.2);
+            padding: 12px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .results-table td {
+            padding: 12px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .download-options {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .download-options a {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            background-color: rgba(255, 255, 255, 0.1);
+            color: white;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            transition: all 0.3s ease;
+        }
+        
+        .download-options a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-2px);
+        }
+        
+        .loader {
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 20px auto;
+        }
+        .loader:after {
+            content: " ";
+            display: block;
+            width: 64px;
+            height: 64px;
+            margin: 8px;
+            border-radius: 50%;
+            border: 6px solid var(--cisco-blue);
+            border-color: var(--cisco-blue) transparent var(--cisco-blue) transparent;
+            animation: loader 1.2s linear infinite;
+        }
+        @keyframes loader {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <i class="fas fa-network-wired"></i> Cisco EOL Information API
+            </a>
+        </div>
+    </nav>
+    
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h3><i class="fas fa-search"></i> Query Single Product</h3>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <label for="productId" class="form-label">Product ID</label>
+                    <input type="text" class="form-control" id="productId" placeholder="Enter Cisco Product ID (e.g., WS-C3560G-24TS)">
+                </div>
+                <button id="querySingle" class="btn btn-primary">
+                    <i class="fas fa-search"></i> Query
+                </button>
+            </div>
+        </div>
+        
+        <div class="card">
+            <div class="card-header">
+                <h3><i class="fas fa-file-excel"></i> Upload Excel File</h3>
+            </div>
+            <div class="card-body">
+                <form id="uploadForm" enctype="multipart/form-data">
+                    <div class="mb-3">
+                        <label for="formFile" class="form-label">Upload an Excel/CSV file with product IDs in the first column</label>
+                        <input class="form-control" type="file" id="formFile" name="file" accept=".xlsx,.xls,.csv">
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-upload"></i> Upload
+                    </button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="result-container">
+            <div class="result-header">
+                <h3><i class="fas fa-clipboard-list"></i> Results</h3>
+                <button id="clearResults" class="btn btn-secondary">
+                    <i class="fas fa-trash-alt"></i> Clear Results
+                </button>
+            </div>
+            <div id="results"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Base API URL - set to empty string for relative URLs
+        const API_BASE = '';
+        
+        // Clear results function
+        document.getElementById('clearResults').addEventListener('click', () => {
+            document.getElementById('results').innerHTML = '';
+            document.getElementById('productId').value = '';
+            document.getElementById('formFile').value = '';
+        });
+        
+        document.getElementById('querySingle').addEventListener('click', async () => {
+            const productId = document.getElementById('productId').value.trim();
+            if (!productId) {
+                alert('Please enter a Product ID');
+                return;
+            }
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="loader"></div>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/eol/${productId}`);
+                const data = await response.json();
+                
+                let html = '<h4>EOL Information for ' + productId + '</h4>';
+                
+                if (data.error) {
+                    html += `<div class="alert alert-danger">${data.error}</div>`;
+                } else {
+                    html += '<table class="results-table">';
+                    
+                    if (data.product_type) {
+                        html += `<tr><th>Product Type</th><td>${data.product_type}</td></tr>`;
+                    }
+                    
+                    if (data.product_series) {
+                        html += `<tr><th>Product Series</th><td>${data.product_series}</td></tr>`;
+                    }
+                    
+                    if (data.product_description) {
+                        html += `<tr><th>Description</th><td>${data.product_description}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_sale_date) {
+                        html += `<tr><th>End of Sale Date</th><td>${data.end_of_sale_date}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_software_maintenance) {
+                        html += `<tr><th>End of Software Maintenance</th><td>${data.end_of_software_maintenance}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_security_support) {
+                        html += `<tr><th>End of Security Support</th><td>${data.end_of_security_support}</td></tr>`;
+                    }
+                    
+                    if (data.end_of_support) {
+                        html += `<tr><th>End of Support</th><td>${data.end_of_support}</td></tr>`;
+                    }
+                    
+                    if (data.recommended_replacement) {
+                        html += `<tr><th>Recommended Replacement</th><td>${data.recommended_replacement}</td></tr>`;
+                    }
+                    
+                    if (data.source_url) {
+                        html += `<tr><th>Source</th><td><a href="${data.source_url}" target="_blank" style="color: var(--cisco-blue);">EOL Bulletin</a></td></tr>`;
+                    }
+                    
+                    html += '</table>';
+                }
+                
+                resultsDiv.innerHTML = html;
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        });
+        
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const fileInput = document.getElementById('formFile');
+            if (!fileInput.files.length) {
+                alert('Please select a file');
+                return;
+            }
+            
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+            
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = '<div class="loader"></div><p class="text-center">Uploading and processing file...<br>This may take a few minutes for larger files.</p>';
+            
+            try {
+                const response = await fetch(`${API_BASE}/api/upload`, {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    resultsDiv.innerHTML = `<div class="alert alert-danger">${data.error}</div>`;
+                } else {
+                    let html = `<h4>Results for ${Object.keys(data.results).length} Products</h4>`;
+                    
+                    html += '<div class="download-options">';
+                    html += `<a href="${data.download_links.json}" class="download-btn"><i class="fas fa-file-code"></i> JSON</a>`;
+                    html += `<a href="${data.download_links.excel}" class="download-btn"><i class="fas fa-file-excel"></i> Excel</a>`;
+                    html += `<a href="${data.download_links.markdown}" class="download-btn"><i class="fas fa-file-alt"></i> Markdown</a>`;
+                    html += '</div>';
+                    
+                    html += '<div style="overflow-x: auto;"><table class="results-table mt-3">';
+                    html += '<thead><tr><th>Product ID</th><th>Product Type</th><th>End of Sale</th><th>End of Support</th><th>Replacement</th></tr></thead>';
+                    html += '<tbody>';
+                    
+                    for (const [productId, eolData] of Object.entries(data.results)) {
+                        if (eolData.error) continue;
+                        
+                        html += '<tr>';
+                        html += `<td>${productId}</td>`;
+                        html += `<td>${eolData.product_type || 'N/A'}</td>`;
+                        html += `<td>${eolData.end_of_sale_date || 'N/A'}</td>`;
+                        html += `<td>${eolData.end_of_support || 'N/A'}</td>`;
+                        html += `<td>${eolData.recommended_replacement || 'N/A'}</td>`;
+                        html += '</tr>';
+                    }
+                    
+                    html += '</tbody></table></div>';
+                    
+                    resultsDiv.innerHTML = html;
+                }
+            } catch (error) {
+                resultsDiv.innerHTML = `<div class="alert alert-danger">Error: ${error.message}</div>`;
+            }
+        });
+    </script>
+</body>
+</html>

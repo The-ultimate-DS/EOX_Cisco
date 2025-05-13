@@ -1,0 +1,993 @@
+{
+  "ISR4321/K9": {
+    "product_id": "ISR4321/K9",
+    "end_of_sale_date": "November 7, 2023",
+    "end_of_software_maintenance": "August 31, 2025",
+    "end_of_security_support": "November 30, 2028",
+    "last_date_of_support": "November 30, 2028",
+    "recommended_replacement": "C8200-1N-4T",
+    "bulletin_number": "November 7, 2022",
+    "end_of_support": "November 30, 2028",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html"
+  },
+  "ISR4331/K9": {
+    "product_id": "ISR4331/K9",
+    "end_of_software_maintenance": "September 2027",
+    "end_of_security_support": "November 2028",
+    "last_date_of_support": "November 30, 2028",
+    "recommended_replacement": "C8200-1N-4T",
+    "end_of_support": "November 30, 2028",
+    "end_of_sale_date": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html"
+  },
+  "ISR4351/K9": {
+    "product_id": "ISR4351/K9",
+    "end_of_software_maintenance": "September 2027",
+    "end_of_security_support": "November 2028",
+    "last_date_of_support": "November 30, 2028",
+    "recommended_replacement": "C8300-2N2S-6T",
+    "end_of_support": "November 30, 2028",
+    "end_of_sale_date": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html"
+  },
+  "ISR4431/K9": {
+    "product_id": "ISR4431/K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/4000-series-integrated-services-routers-isr/select-isr4k-series-platform-eol.html"
+  },
+  "ISR4451/K9": {
+    "product_id": "ISR4451/K9",
+    "end_of_sale_date": "October 28, 2022",
+    "end_of_software_maintenance": "October 28, 2023",
+    "end_of_security_support": "October 27, 2025",
+    "last_date_of_support": "October 31, 2027",
+    "bulletin_number": "EOL14743",
+    "end_of_support": "October 31, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/3900-series-integrated-services-routers-isr/one-hardware-eol.html"
+  },
+  "ISR1100-4P": {
+    "product_id": "ISR1100-4P",
+    "end_of_sale_date": "January 30, 2025",
+    "end_of_software_maintenance": "January 30, 2026",
+    "end_of_security_support": "January 30, 2028",
+    "last_date_of_support": "January 31, 2030",
+    "recommended_replacement": "C1121-4PLTEP",
+    "bulletin_number": "EOL15268",
+    "end_of_support": "January 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/select-isr-1000-routers-integrated-cat-6-lte-eol.html"
+  },
+  "ISR1100-6P": {
+    "product_id": "ISR1100-6P",
+    "end_of_sale_date": "April 30, 2022",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "bulletin_number": "EOL14687",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/900-series-integrated-services-routers-isr/select-isr1100-isr900-promotional-offer-eol.html"
+  },
+  "C1111-8P": {
+    "product_id": "C1111-8P",
+    "end_of_sale_date": "January 30, 2025",
+    "end_of_software_maintenance": "January 30, 2026",
+    "end_of_security_support": "January 30, 2028",
+    "last_date_of_support": "January 31, 2030",
+    "recommended_replacement": "C1121-8PLTEP",
+    "bulletin_number": "EOL15268",
+    "end_of_support": "January 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/select-isr-1000-routers-integrated-cat-6-lte-eol.html"
+  },
+  "C1111-8PLTEEA": {
+    "product_id": "C1111-8PLTEEA",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/routers/1000-series-integrated-services-routers-isr/eos-eol-notice-listing.html"
+  },
+  "C1111X-8P": {
+    "product_id": "C1111X-8P",
+    "end_of_sale_date": "January 30, 2025",
+    "end_of_software_maintenance": "January 30, 2026",
+    "end_of_security_support": "January 30, 2028",
+    "last_date_of_support": "January 31, 2030",
+    "bulletin_number": "EOL15268",
+    "end_of_support": "January 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/select-isr-1000-routers-integrated-cat-6-lte-eol.html"
+  },
+  "ASR1001-X": {
+    "product_id": "ASR1001-X",
+    "end_of_sale_date": "August 1, 2022",
+    "end_of_software_maintenance": "August 1, 2023",
+    "end_of_security_support": "July 31, 2025",
+    "last_date_of_support": "July 31, 2027",
+    "bulletin_number": "EOL14624",
+    "end_of_support": "July 31, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/asr1001-x-1002-x-eol.html"
+  },
+  "ASR1002-HX": {
+    "product_id": "ASR1002-HX",
+    "end_of_sale_date": "March 31, 2025",
+    "end_of_software_maintenance": "March 31, 2026",
+    "end_of_security_support": "September 30, 2028",
+    "end_of_service_contract_renewal": "June 26, 2029",
+    "last_date_of_support": "March 31, 2030",
+    "recommended_replacement": "C8500-12X",
+    "bulletin_number": "EOL15470",
+    "end_of_support": "March 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/asr1002-hx-asso-part-eol.html"
+  },
+  "ASR1006-X": {
+    "product_id": "ASR1006-X",
+    "end_of_sale_date": "November 29, 2023",
+    "end_of_software_maintenance": "November 28, 2024",
+    "end_of_security_support": "November 30, 2028",
+    "end_of_service_contract_renewal": "February 24, 2028",
+    "last_date_of_support": "November 30, 2028",
+    "end_of_support": "November 30, 2028",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-1000-series-aggregation-services-routers/asr1006-1000-esp100-200-eol.html"
+  },
+  "ASR9001": {
+    "product_id": "ASR9001",
+    "end_of_sale_date": "February 11, 2022",
+    "end_of_software_maintenance": "February 11, 2023",
+    "end_of_security_support": "February 10, 2025",
+    "last_date_of_support": "February 28, 2027",
+    "recommended_replacement": "ASR-9901",
+    "bulletin_number": "EOL14473",
+    "end_of_support": "February 28, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/asr-9001-router-eol.html"
+  },
+  "ASR9006": {
+    "product_id": "ASR9006",
+    "product_description": "ASR-9006 AC Chassis",
+    "end_of_sale_date": "November 13, 2014",
+    "end_of_service_contract_renewal": "February 8, 2019",
+    "last_date_of_support": "November 30, 2019",
+    "recommended_replacement": "ASR-9006-AC-V2=",
+    "end_of_support": "November 30, 2019",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/asr-9000-series-aggregation-services-routers/eos-eol-notice-c51-731882.html"
+  },
+  "CGR2010/K9": {
+    "product_id": "CGR2010/K9",
+    "product_description": "Cisco CGR2010 w/2GE, 4 GRWIC slots, 256MB CF, 1GB DRAM, IPB",
+    "end_of_sale_date": "March 1, 2023",
+    "end_of_software_maintenance": "February 29, 2024",
+    "end_of_security_support": "February 28, 2026",
+    "end_of_service_contract_renewal": "May 27, 2027",
+    "last_date_of_support": "February 29, 2028",
+    "recommended_replacement": "IR8340-K9",
+    "bulletin_number": "EOL14828",
+    "end_of_support": "February 29, 2028",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/2000-series-connected-grid-routers/connect-grid-router-eol.html"
+  },
+  "CGR1240/K9": {
+    "product_id": "CGR1240/K9",
+    "end_of_sale_date": "December 30, 2022",
+    "end_of_software_maintenance": "December 30, 2023",
+    "end_of_security_support": "December 31, 2027",
+    "last_date_of_support": "December 31, 2027",
+    "recommended_replacement": "IR8140H-K9",
+    "end_of_support": "December 31, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-connected-grid-routers/announce-1000-series-grid-routers-eol.html"
+  },
+  "IR1101-K9": {
+    "product_id": "IR1101-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/routers/1100-series-industrial-integrated-services-routers/eos-eol-notice-listing.html"
+  },
+  "ISR921-K9": {
+    "product_id": "ISR921-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/routers/900-series-integrated-services-routers-isr/eos-eol-notice-listing.html"
+  },
+  "ISR1111-4P": {
+    "product_id": "ISR1111-4P",
+    "end_of_sale_date": "January 30, 2025",
+    "end_of_software_maintenance": "January 30, 2026",
+    "end_of_security_support": "January 30, 2028",
+    "last_date_of_support": "January 31, 2030",
+    "recommended_replacement": "C1121-4PLTEP",
+    "bulletin_number": "EOL15268",
+    "end_of_support": "January 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/routers/1000-series-integrated-services-routers-isr/select-isr-1000-routers-integrated-cat-6-lte-eol.html"
+  },
+  "WS-C3560G-24TS": {
+    "product_id": "WS-C3560G-24TS",
+    "end_of_software_maintenance": "April 30, 2013",
+    "end_of_security_support": "January 30, 2016",
+    "last_date_of_support": "January 31, 2018",
+    "recommended_replacement": "WS-C3560X-24T-E",
+    "end_of_support": "January 31, 2018",
+    "end_of_sale_date": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3750-series-switches/eol_c51-696372.html"
+  },
+  "WS-C3750X-24T-S": {
+    "product_id": "WS-C3750X-24T-S",
+    "end_of_sale_date": "October 30, 2016",
+    "end_of_software_maintenance": "October 30, 2017",
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "recommended_replacement": "WS-C3850-24T-S",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-3560-x-series-switches/eos-eol-notice-c51-736139.html"
+  },
+  "WS-C2960X-24TD-L": {
+    "product_id": "WS-C2960X-24TD-L",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "recommended_replacement": "C9200L-24T-4X",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-2960-x-series-switches/eos-eol-notice-c51-744432.html"
+  },
+  "WS-C2960-24TC-L": {
+    "product_id": "WS-C2960-24TC-L",
+    "end_of_sale_date": "06/Nov/2013",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-2960-series-switches/eos-eol-notice-listing.html"
+  },
+  "WS-C3850-24T": {
+    "product_id": "WS-C3850-24T",
+    "end_of_sale_date": "08/Mar/2023",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-3850-series-switches/eos-eol-notice-listing.html"
+  },
+  "C9200-24T": {
+    "product_id": "C9200-24T",
+    "end_of_sale_date": "December 11, 2020",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "bulletin_number": "EOL13302",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9200-series-switches/eos-eol-notice-c51-743231.html"
+  },
+  "C9300-24T": {
+    "product_id": "C9300-24T",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/eos-eol-notice-listing.html"
+  },
+  "C9400-SUP-1": {
+    "product_id": "C9400-SUP-1",
+    "end_of_sale_date": "20/Mar/2025",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-9400-series-switches/eos-eol-notice-listing.html"
+  },
+  "C9500-24Q": {
+    "product_id": "C9500-24Q",
+    "end_of_sale_date": "April 30, 2024",
+    "end_of_software_maintenance": "April 30, 2025",
+    "end_of_security_support": "April 30, 2029",
+    "last_date_of_support": "April 30, 2029",
+    "bulletin_number": "EOL15039",
+    "end_of_support": "April 30, 2029",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-9500-series-switches/c9500-12q-c9500-24q-c9500-40x-eol.html"
+  },
+  "C9500-32C": {
+    "product_id": "C9500-32C",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-9500-series-switches/eos-eol-notice-listing.html"
+  },
+  "N9K-C9336C-FX2": {
+    "product_id": "N9K-C9336C-FX2",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "recommended_replacement": "N9K-C9336C-FX2",
+    "bulletin_number": "EOL12736",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/eos-eol-notice-c51-741302.pdf",
+    "source_type": "PDF bulletin"
+  },
+  "N9K-C93180YC-EX": {
+    "product_id": "N9K-C93180YC-EX",
+    "end_of_sale_date": "August 9, 2022",
+    "end_of_software_maintenance": "August 9, 2023",
+    "end_of_security_support": "August 8, 2025",
+    "last_date_of_support": "August 31, 2027",
+    "bulletin_number": "EOL14472",
+    "end_of_support": "August 31, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/n9k-c93180yc-c93108tc-ex-eol.html"
+  },
+  "N9K-C9364C": {
+    "product_id": "N9K-C9364C",
+    "product_description": "Nexus 9K ACI & NX-OS Spine, 64p 40/100G QSFP28",
+    "end_of_sale_date": "January 30, 2024",
+    "end_of_software_maintenance": "January 29, 2025",
+    "end_of_security_support": "January 31, 2029",
+    "last_date_of_support": "January 31, 2029",
+    "recommended_replacement": "N9K-C9364C-GX",
+    "bulletin_number": "EOL15089",
+    "end_of_support": "January 31, 2029",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-9332c-9364c-fixed-spine-switch-eol.html"
+  },
+  "N9K-C9232C": {
+    "product_id": "N9K-C9232C",
+    "end_of_sale_date": "October 10, 2022",
+    "end_of_software_maintenance": "January 10, 2024",
+    "end_of_security_support": "April 10, 2025",
+    "last_date_of_support": "October 31, 2025",
+    "bulletin_number": "EOL14694",
+    "end_of_support": "October 31, 2025",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/nexus-3000-9000-releases-9-3x-eol.html"
+  },
+  "N9K-C92160YC-X": {
+    "product_id": "N9K-C92160YC-X",
+    "end_of_sale_date": "March 5, 2021",
+    "end_of_software_maintenance": "March 5, 2022",
+    "end_of_security_support": "March 4, 2024",
+    "end_of_service_contract_renewal": "June 3, 2025",
+    "last_date_of_support": "March 31, 2026",
+    "bulletin_number": "EOL13356",
+    "end_of_support": "March 31, 2026",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/nexus-9000-series-switches/eos-eol-notice-c51-743538.html"
+  },
+  "C1000-24T-4G-L": {
+    "product_id": "C1000-24T-4G-L",
+    "end_of_sale_date": "April 30, 2025",
+    "end_of_software_maintenance": "April 30, 2026",
+    "end_of_security_support": "April 30, 2028",
+    "last_date_of_support": "April 30, 2030",
+    "recommended_replacement": "C1300-24T-4G",
+    "end_of_support": "April 30, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/catalyst-1000-series-switches-eol.html"
+  },
+  "C1000-48T-4G-L": {
+    "product_id": "C1000-48T-4G-L",
+    "end_of_sale_date": "April 30, 2024",
+    "end_of_software_maintenance": "July 30, 2025",
+    "end_of_security_support": "April 30, 2026",
+    "end_of_service_contract_renewal": "April 30, 2026",
+    "last_date_of_support": "July 29, 2029",
+    "recommended_replacement": "C1300-48T-4G",
+    "end_of_support": "July 29, 2029",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/switches/catalyst-1000-series-switches/catalyst-1000-series-switches-eol.html"
+  },
+  "IE-4000-8GT4G-E": {
+    "product_id": "IE-4000-8GT4G-E",
+    "end_of_sale_date": "25/Jan/2024",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/industrial-ethernet-4000-series-switches/eos-eol-notice-listing.html"
+  },
+  "IE-4010-16S12P": {
+    "product_id": "IE-4010-16S12P",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/industrial-ethernet-4010-series-switches/eos-eol-notice-listing.html"
+  },
+  "WS-C4500X-16": {
+    "product_id": "WS-C4500X-16",
+    "end_of_sale_date": "18/Jan/2023",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-4500-x-series-switches/eos-eol-notice-listing.html"
+  },
+  "CP-8841": {
+    "product_id": "CP-8841",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collaboration-endpoints/unified-ip-phone-8800-series/eos-eol-notice-listing.html"
+  },
+  "CP-8851": {
+    "product_id": "CP-8851",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/eos-eol-notice-c51-741310.html"
+  },
+  "CP-8861": {
+    "product_id": "CP-8861",
+    "end_of_sale_date": "June 18, 2018",
+    "end_of_software_maintenance": "June 18, 2019",
+    "last_date_of_support": "June 30, 2023",
+    "end_of_support": "June 30, 2023",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7900-series/eos-eol-notice-c51-740078.html"
+  },
+  "CP-7841": {
+    "product_id": "CP-7841",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/support/collaboration-endpoints/unified-ip-phone-7800-series/series.html"
+  },
+  "CP-7821": {
+    "product_id": "CP-7821",
+    "product_description": "10 Pack Bundle for 7821 Desktop Phone and Handset",
+    "end_of_sale_date": "December 21, 2023",
+    "bulletin_number": "EOL15165",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/ip-phones/ip-phone-7800-series/ip-phone-7821/deskphone-cover-eol.html"
+  },
+  "CP-9971": {
+    "product_id": "CP-9971",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/obsolete/collaboration-endpoints/cisco-unified-ip-phone-9971.html"
+  },
+  "CP-8832": {
+    "product_id": "CP-8832",
+    "end_of_sale_date": "April 3, 2020",
+    "end_of_software_maintenance": "April 3, 2021",
+    "end_of_service_contract_renewal": "June 29, 2024",
+    "last_date_of_support": "April 30, 2025",
+    "recommended_replacement": "CP-8831",
+    "bulletin_number": "EOL12400",
+    "end_of_support": "April 30, 2025",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/ip-phone-8800-series-multiplatform-firmware/eos-eol-notice-c51-742916.html"
+  },
+  "CP-DX80": {
+    "product_id": "CP-DX80",
+    "end_of_sale_date": "January 30, 2021",
+    "end_of_software_maintenance": "January 31, 2023",
+    "end_of_security_support": "January 31, 2026",
+    "end_of_service_contract_renewal": "April 27, 2025",
+    "last_date_of_support": "January 31, 2026",
+    "bulletin_number": "EOL13662",
+    "end_of_support": "January 31, 2026",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/eos-eol-notice-c51-744413.html"
+  },
+  "CP-8865": {
+    "product_id": "CP-8865",
+    "end_of_sale_date": "July 26, 2025",
+    "end_of_software_maintenance": "July 26, 2025",
+    "end_of_security_support": "July 27, 2027",
+    "end_of_service_contract_renewal": "October 26, 2029",
+    "last_date_of_support": "July 31, 2030",
+    "bulletin_number": "EOL15614",
+    "end_of_support": "July 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-8800-series/video-phone-8865-eol.html"
+  },
+  "CP-7942G": {
+    "product_id": "CP-7942G",
+    "end_of_sale_date": "July 23, 2010",
+    "end_of_software_maintenance": "July 23, 2011",
+    "last_date_of_support": "July 22, 2015",
+    "bulletin_number": "EOL6938",
+    "end_of_support": "July 22, 2015",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/collaboration-endpoints/unified-ip-phone-7900-series/end_of_life_notice_c51-574072.html"
+  },
+  "UCS-C220-M5SX": {
+    "product_id": "UCS-C220-M5SX",
+    "end_of_sale_date": "28/Jan/2025",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-c-series-rack-servers/eos-eol-notice-listing.html"
+  },
+  "UCS-C240-M5SX": {
+    "product_id": "UCS-C240-M5SX",
+    "end_of_sale_date": "30-OCT-2023",
+    "last_date_of_support": "31-OCT-2028",
+    "end_of_support": "31-OCT-2028",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c240-m5-rack-server/model.html"
+  },
+  "UCS-C480-M5": {
+    "product_id": "UCS-C480-M5",
+    "end_of_sale_date": "October 30, 2023",
+    "end_of_software_maintenance": "October 29, 2026",
+    "end_of_security_support": "October 31, 2028",
+    "last_date_of_support": "October 31, 2028",
+    "bulletin_number": "EOL15060",
+    "end_of_support": "October 31, 2028",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-m5-rack-server-c220-c240-c480-eol.html"
+  },
+  "UCSC-C240-M6S": {
+    "product_id": "UCSC-C240-M6S",
+    "end_of_sale_date": "29-SEP-2025",
+    "last_date_of_support": "30-SEP-2030",
+    "end_of_support": "30-SEP-2030",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c240-m6-rack-server/model.html"
+  },
+  "UCSC-C220-M6N": {
+    "product_id": "UCSC-C220-M6N",
+    "end_of_sale_date": "29-SEP-2025",
+    "last_date_of_support": "30-SEP-2030",
+    "end_of_support": "30-SEP-2030",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/support/servers-unified-computing/ucs-c220-m6-rack-server/model.html"
+  },
+  "UCS-SP-B200-M4": {
+    "product_id": "UCS-SP-B200-M4",
+    "end_of_sale_date": "06/Sep/2018",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-b-series-blade-servers/eos-eol-notice-listing.html"
+  },
+  "UCS-SP-B480-M5": {
+    "product_id": "UCS-SP-B480-M5",
+    "end_of_sale_date": "May 30, 2024",
+    "end_of_software_maintenance": "May 30, 2025",
+    "end_of_security_support": "May 31, 2029",
+    "end_of_service_contract_renewal": "August 25, 2028",
+    "last_date_of_support": "May 31, 2029",
+    "recommended_replacement": "UCSX-410C-M7",
+    "bulletin_number": "EOL15230",
+    "end_of_support": "May 31, 2029",
+    "source_url": "https://www.cisco.com/c/en/us/products/servers-unified-computing/ucs-b-series-blade-servers/ucs-m5-blade-server-b480-eol.html"
+  },
+  "UCS-SP-C220-M5S": {
+    "product_id": "UCS-SP-C220-M5S",
+    "end_of_sale_date": "October 30, 2023",
+    "end_of_software_maintenance": "October 29, 2026",
+    "end_of_security_support": "October 31, 2028",
+    "last_date_of_support": "October 31, 2028",
+    "bulletin_number": "EOL15060",
+    "end_of_support": "October 31, 2028",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-c-series-rack-servers/ucs-m5-rack-server-c220-c240-c480-eol.html"
+  },
+  "UCS-S3260-M5": {
+    "product_id": "UCS-S3260-M5",
+    "product_description": "UCS S3260 M5 Svr Node w/IOE Configurable",
+    "end_of_sale_date": "February 3, 2025",
+    "end_of_software_maintenance": "February 3, 2028",
+    "end_of_security_support": "February 28, 2030",
+    "last_date_of_support": "February 28, 2030",
+    "bulletin_number": "EOL15459",
+    "end_of_support": "February 28, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-s-series-storage-servers/ucs-s3260-storage-server-eol.html"
+  },
+  "UCSS-S3260-M4": {
+    "product_id": "UCSS-S3260-M4",
+    "end_of_sale_date": "February 3, 2025",
+    "end_of_software_maintenance": "February 3, 2028",
+    "end_of_security_support": "February 28, 2030",
+    "last_date_of_support": "February 28, 2030",
+    "bulletin_number": "EOL15459",
+    "end_of_support": "February 28, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/servers-unified-computing/ucs-s-series-storage-servers/ucs-s3260-storage-server-eol.html"
+  },
+  "CSS11503": {
+    "product_id": "CSS11503",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/eos-eol-listing.html"
+  },
+  "CSS11506": {
+    "product_id": "CSS11506",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/eos-eol-listing.html"
+  },
+  "ACE30-MOD-K9": {
+    "product_id": "ACE30-MOD-K9",
+    "end_of_sale_date": "January 24, 2014",
+    "end_of_software_maintenance": "January 24, 2015",
+    "last_date_of_support": "January 31, 2019",
+    "bulletin_number": "EOL9304-Amended",
+    "end_of_support": "January 31, 2019",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/services-modules/eol_C51-728979.html"
+  },
+  "ACE-4710-K9": {
+    "product_id": "ACE-4710-K9",
+    "end_of_sale_date": "January 24, 2014",
+    "end_of_software_maintenance": "January 24, 2015",
+    "last_date_of_support": "January 31, 2019",
+    "bulletin_number": "EOL9304-Amended",
+    "end_of_support": "January 31, 2019",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/services-modules/eol_C51-728979.html"
+  },
+  "FWSM-2": {
+    "product_id": "FWSM-2",
+    "product_description": "Firewall Services Module Software Version 1.1 for Cisco Catalyst 6500 Series and Cisco 7600 Series",
+    "end_of_sale_date": "July 1, 2006",
+    "end_of_software_maintenance": "July 1, 2007",
+    "last_date_of_support": "July 1, 2009",
+    "recommended_replacement": "SC-SVC-FWM-2.3-K9",
+    "bulletin_number": "EOL1018",
+    "end_of_support": "July 1, 2009",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/interfaces-modules/services-modules/prod_end-of-life_notice0900aecd803ac3ae.html"
+  },
+  "AIR-CAP3702I-A-K9": {
+    "product_id": "AIR-CAP3702I-A-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "recommended_replacement": "Unknown",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-3700-series/eos-eol-notice-c51-740710.html"
+  },
+  "AIR-AP1852I-A-K9": {
+    "product_id": "AIR-AP1852I-A-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/aironet-1850-series-access-points/eos-eol-notice-listing.html"
+  },
+  "AIR-AP2802I-A-K9": {
+    "product_id": "AIR-AP2802I-A-K9",
+    "end_of_sale_date": "05/Nov/2022",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/aironet-2800-series-access-points/eos-eol-notice-listing.html"
+  },
+  "AIR-AP3802I-A-K9": {
+    "product_id": "AIR-AP3802I-A-K9",
+    "end_of_sale_date": "October 22, 2016",
+    "end_of_software_maintenance": "October 21, 2017",
+    "end_of_service_contract_renewal": "January 16, 2021",
+    "last_date_of_support": "October 31, 2021",
+    "bulletin_number": "EOL10931",
+    "end_of_support": "October 31, 2021",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/aironet-3600-series/eos-eol-notice-c51-737144.html"
+  },
+  "AIR-AP1832I-A-K9": {
+    "product_id": "AIR-AP1832I-A-K9",
+    "end_of_sale_date": "05/Nov/2022",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/aironet-1830-series-access-points/eos-eol-notice-listing.html"
+  },
+  "AIR-AP1562I-A-K9": {
+    "product_id": "AIR-AP1562I-A-K9",
+    "end_of_sale_date": "01/Aug/2022",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/aironet-1560-series/eos-eol-notice-listing.html"
+  },
+  "AIR-CAP2602I-A-K9": {
+    "product_id": "AIR-CAP2602I-A-K9",
+    "end_of_sale_date": "29-DEC-2016",
+    "last_date_of_support": "31-DEC-2021",
+    "end_of_support": "31-DEC-2021",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/support/wireless/aironet-2600-series/series.html"
+  },
+  "AIR-CAP1602I-A-K9": {
+    "product_id": "AIR-CAP1602I-A-K9",
+    "end_of_sale_date": "2016-12-29",
+    "last_date_of_support": "2021-12-31",
+    "end_of_support": "2021-12-31",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/obsolete/wireless/cisco-aironet-1600-series.html"
+  },
+  "AIR-CAP3502I-A-K9": {
+    "product_id": "AIR-CAP3502I-A-K9",
+    "end_of_sale_date": "2016-04-01",
+    "last_date_of_support": "2021-03-31",
+    "end_of_support": "2021-03-31",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/obsolete/wireless/cisco-aironet-3500-series.html"
+  },
+  "AIR-AP1815I-A-K9": {
+    "product_id": "AIR-AP1815I-A-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "bulletin_number": "05/Nov/2022",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/aironet-1815-series-access-points/eos-eol-notice-listing.html"
+  },
+  "C9800-40-K9": {
+    "product_id": "C9800-40-K9",
+    "end_of_sale_date": "January 9, 2025",
+    "end_of_software_maintenance": "March 31, 2026",
+    "end_of_security_support": "December 31, 2027",
+    "end_of_service_contract_renewal": "December 31, 2026",
+    "last_date_of_support": "March 31, 2030",
+    "recommended_replacement": "CW9800M",
+    "end_of_support": "March 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/catalyst-c9800-wireless-lan-controller-eol.html"
+  },
+  "C9800-80-K9": {
+    "product_id": "C9800-80-K9",
+    "end_of_sale_date": "December 31, 2025",
+    "end_of_software_maintenance": "December 31, 2027",
+    "end_of_security_support": "December 31, 2030",
+    "end_of_service_contract_renewal": "March 31, 2030",
+    "last_date_of_support": "December 31, 2030",
+    "recommended_replacement": "CW9800H1",
+    "end_of_support": "December 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/catalyst-c9800-wireless-lan-controller-eol.html"
+  },
+  "C9800-CL-K9": {
+    "product_id": "C9800-CL-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "bulletin_number": "EOL15034",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/catalyst-9800-series-wireless-controllers/catalyst-c9800-wireless-lan-controller-eol.html"
+  },
+  "AIR-CT5508-K9": {
+    "product_id": "AIR-CT5508-K9",
+    "end_of_sale_date": "May 4, 2018",
+    "end_of_software_maintenance": "August 1, 2019",
+    "end_of_security_support": "July 31, 2021",
+    "recommended_replacement": "AIR-CT5520-K9",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/5500-series-wireless-controllers/eos-eol-notice-c51-740221.html"
+  },
+  "AIR-CT5520-K9": {
+    "product_id": "AIR-CT5520-K9",
+    "end_of_sale_date": "December 10, 2021",
+    "end_of_software_maintenance": "January 31, 2023",
+    "end_of_security_support": "January 30, 2025",
+    "last_date_of_support": "January 31, 2027",
+    "recommended_replacement": "Catalyst C9800-40 Wireless Controller",
+    "bulletin_number": "EOL13657",
+    "end_of_support": "January 31, 2027",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/5520-wireless-controller/eos-eol-notice-c51-744430.html"
+  },
+  "AIR-CT8540-K9": {
+    "product_id": "AIR-CT8540-K9",
+    "end_of_sale_date": "13/Apr/2021",
+    "bulletin_number": "End-of-Sale and End-of-Life Announcement for the Cisco 8540 Wireless controller",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/wireless/8500-series-wireless-controllers/eos-eol-notice-listing.html"
+  },
+  "AIR-CTVM-K9": {
+    "product_id": "AIR-CTVM-K9",
+    "end_of_sale_date": "January 31, 2022",
+    "end_of_software_maintenance": "January 31, 2023",
+    "last_date_of_support": "January 31, 2027",
+    "recommended_replacement": "C9800-CL-K9",
+    "bulletin_number": "EOL13655",
+    "end_of_support": "January 31, 2027",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/wireless/virtual-wireless-controller/eos-eol-notice-c51-744428.html"
+  },
+  "WS-C3850-24U-L": {
+    "product_id": "WS-C3850-24U-L",
+    "end_of_sale_date": "08/Mar/2023",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-3850-series-switches/eos-eol-notice-listing.html"
+  },
+  "WS-C3850-48U-L": {
+    "product_id": "WS-C3850-48U-L",
+    "end_of_sale_date": "08/Mar/2023",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-3850-series-switches/eos-eol-notice-listing.html"
+  },
+  "C9300-48U": {
+    "product_id": "C9300-48U",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/switches/catalyst-9300-series-switches/eos-eol-notice-listing.html"
+  },
+  "ASA5505-K8": {
+    "product_id": "ASA5505-K8",
+    "end_of_sale_date": "January 16, 2013",
+    "end_of_software_maintenance": "January 16, 2014",
+    "last_date_of_support": "January 31, 2018",
+    "bulletin_number": "EOL8496",
+    "end_of_support": "January 31, 2018",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eol_c51-711120.html"
+  },
+  "ASA5506-K9": {
+    "product_id": "ASA5506-K9",
+    "end_of_sale_date": "August 2, 2021",
+    "end_of_service_contract_renewal": "October 28, 2025",
+    "last_date_of_support": "August 31, 2026",
+    "recommended_replacement": "Cisco Firepower 1000 Series Appliances",
+    "bulletin_number": "EOL13763",
+    "end_of_support": "August 31, 2026",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eos-eol-notice-c51-744797.html"
+  },
+  "ASA5508-K9": {
+    "product_id": "ASA5508-K9",
+    "end_of_sale_date": "August 7, 2024",
+    "last_date_of_support": "August 31, 2026",
+    "recommended_replacement": "Cisco Firepower 1000 Series Appliances",
+    "bulletin_number": "EOL15287",
+    "end_of_support": "August 31, 2026",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-firepower-services/asa5508-5516-series-security-app-sub-eol.html"
+  },
+  "ASA5512-K9": {
+    "product_id": "ASA5512-K9",
+    "end_of_sale_date": "August 25, 2017",
+    "end_of_security_support": "August 31, 2022",
+    "end_of_service_contract_renewal": "November 20, 2021",
+    "last_date_of_support": "August 31, 2022",
+    "bulletin_number": "EOL11414",
+    "end_of_support": "August 31, 2022",
+    "end_of_software_maintenance": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/eos-eol-notice-c51-738644.html"
+  },
+  "ASA5515-K9": {
+    "product_id": "ASA5515-K9",
+    "end_of_sale_date": "August 31, 2021",
+    "last_date_of_support": "August 31, 2022",
+    "bulletin_number": "EOL14447",
+    "end_of_support": "August 31, 2022",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-5500-series-next-generation-firewalls/asa5512-asa5515-1yr-subscriptions-eol.html"
+  },
+  "ASA5525-K9": {
+    "product_id": "ASA5525-K9",
+    "end_of_sale_date": "September 2, 2022",
+    "end_of_software_maintenance": "September 2, 2023",
+    "last_date_of_support": "September 30, 2025",
+    "bulletin_number": "EOL13131",
+    "end_of_support": "September 30, 2025",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-firepower-services/asa5525-5545-5555-series-3-yr-subscrip-eol.html"
+  },
+  "ASA5545-K9": {
+    "product_id": "ASA5545-K9",
+    "end_of_sale_date": "September 2, 2022",
+    "end_of_software_maintenance": "September 2, 2023",
+    "last_date_of_support": "September 30, 2025",
+    "bulletin_number": "EOL13131",
+    "end_of_support": "September 30, 2025",
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-firepower-services/asa5525-5545-5555-series-3-yr-subscrip-eol.html"
+  },
+  "ASA5555-K9": {
+    "product_id": "ASA5555-K9",
+    "end_of_sale_date": "September 2, 2022",
+    "end_of_software_maintenance": "September 2, 2023",
+    "end_of_security_support": "September 30, 2025",
+    "last_date_of_support": "September 30, 2025",
+    "bulletin_number": "EOL13131",
+    "end_of_support": "September 30, 2025",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/asa-firepower-services/asa5525-5545-5555-series-3-yr-subscrip-eol.html"
+  },
+  "FPR2110-NGFW-K9": {
+    "product_id": "FPR2110-NGFW-K9",
+    "end_of_sale_date": "May 27, 2025",
+    "end_of_software_maintenance": "May 27, 2026",
+    "end_of_security_support": "May 31, 2030",
+    "last_date_of_support": "May 31, 2030",
+    "end_of_support": "May 31, 2030",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/firepower-2100-series-sec-app-5-yr-sub-eol.html"
+  },
+  "FPR2120-NGFW-K9": {
+    "product_id": "FPR2120-NGFW-K9",
+    "end_of_software_maintenance": "May 27, 2026",
+    "end_of_security_support": "May 31, 2030",
+    "last_date_of_support": "May 31, 2030",
+    "end_of_support": "May 31, 2030",
+    "end_of_sale_date": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/firepower-2100-series-sec-app-5-yr-sub-eol.html"
+  },
+  "FPR2130-NGFW-K9": {
+    "product_id": "FPR2130-NGFW-K9",
+    "product_description": "Cisco Firepower 2130 NGFW Appliance, 1U, 1 x NetMod Bay",
+    "last_date_of_support": "August 22, 2029",
+    "end_of_support": "August 22, 2029",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/firepower-2100-series-sec-app-5-yr-sub-eol.html"
+  },
+  "FPR2140-NGFW-K9": {
+    "product_id": "FPR2140-NGFW-K9",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "The last date that Cisco Engineering may release a planned maintenance release or scheduled software remedy for a security vulnerability issue.",
+    "last_date_of_support": "Unknown",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/firepower-2100-series-sec-app-5-yr-sub-eol.html"
+  },
+  "FPR4110-NGFW-K9": {
+    "product_id": "FPR4110-NGFW-K9",
+    "end_of_sale_date": "January 31, 2022",
+    "end_of_service_contract_renewal": "April 28, 2026",
+    "last_date_of_support": "January 31, 2027",
+    "bulletin_number": "EOL14431",
+    "end_of_support": "January 31, 2027",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/firepower-4110-series-security-appliances-eol.html"
+  },
+  "FPR4120-NGFW-K9": {
+    "product_id": "FPR4120-NGFW-K9",
+    "product_description": "Cisco Firepower 4120 NGFW Appliance, 1U, 2 x NetMod Bays",
+    "end_of_sale_date": null,
+    "end_of_software_maintenance": null,
+    "end_of_security_support": null,
+    "last_date_of_support": "Unknown",
+    "end_of_support": "The last date to receive applicable service and support for the product as entitled by active service contracts or by warranty terms and conditions. After this date, all support services for the product are unavailable, and the product becomes obsolete.",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/eos-eol-notice-c51-743522.html"
+  },
+  "FPR4140-NGFW-K9": {
+    "product_id": "FPR4140-NGFW-K9",
+    "end_of_sale_date": "August 31, 2024",
+    "last_date_of_support": "August 31, 2025",
+    "bulletin_number": "EOL15315",
+    "end_of_support": "August 31, 2025",
+    "end_of_software_maintenance": null,
+    "end_of_security_support": "Secure Firewall",
+    "source_url": "https://www.cisco.com/c/en/us/products/collateral/security/firepower-ngfw/fpr-9300-sm24-36-44-sec-app-1-yr-sub-eol.html"
+  }
+}

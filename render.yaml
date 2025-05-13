@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: cisco-eol-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn src.api:app
+    envVars:
+      - key: OPENAI_API_KEY
+        sync: false
+      - key: SERPER_API_KEY
+        sync: false
