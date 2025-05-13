@@ -16,11 +16,23 @@ from src.utils.helpers import save_json, load_json, write_file
 # Load environment variables
 load_dotenv()
 
+# Check if running on Render
+IS_RENDER = os.environ.get('RENDER') == 'true'
+
 # Initialize Flask app with template directory and absolute paths
 template_dir = os.path.abspath('templates')
 app = Flask(__name__, template_folder=template_dir)
-app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
-app.config['RESULTS_FOLDER'] = os.path.abspath('results')
+
+# Configure app paths
+if IS_RENDER:
+    # On Render, use absolute paths in the application directory
+    app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
+    app.config['RESULTS_FOLDER'] = os.path.abspath('results')
+else:
+    # Local development
+    app.config['UPLOAD_FOLDER'] = os.path.abspath('uploads')
+    app.config['RESULTS_FOLDER'] = os.path.abspath('results')
+
 app.config['ALLOWED_EXTENSIONS'] = {'xlsx', 'xls', 'csv'}
 
 # Create necessary folders with absolute paths
