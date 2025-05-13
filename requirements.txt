@@ -11,6 +11,4 @@ PyPDF2>=3.0.1
 pandas>=2.0.0
 Flask>=2.0.0
 Werkzeug>=2.0.0
-HEAD
 gunicorn>=20.1.0
-7a0c1a72 (Initial commit)
